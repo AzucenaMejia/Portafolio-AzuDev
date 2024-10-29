@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none; /* Quita las viñetas */
+}
+
+nav li {
+    display: inline-block; /* Hace que los elementos se alineen horizontalmente */
+    width: 10%; /* Ajusta el ancho según tus necesidades */
+    padding: 5px 10px;
+    background-color: #000; /* Color de fondo */
+    border: 1px solid #000; /* Borde */
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #fff; /* Color del texto */
+}
+
+nav li:hover {
+    background-color: #fff; /* Cambia el fondo al pasar el ratón */
+    color: #000; /* Cambia el color del texto al pasar el ratón */
+}
